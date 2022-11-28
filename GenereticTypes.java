@@ -1,7 +1,6 @@
 import java.util.ArrayList;
-import java.util.Collection;
 
-public class Collections
+public class GenereticTypes
 {
     public static void main(String[] args)
     {
@@ -21,6 +20,7 @@ public class Collections
         nazwaZmiennej.nadajWartosc(("cosik"));
         System.out.println(nazwaZmiennej.zwroc());
     }
+
 }
 class Zwykla <COKOLWIEK>
 {
@@ -34,3 +34,5 @@ class Zwykla <COKOLWIEK>
     }
     COKOLWIEK nazwaZmiennejTypuCokolowiek;
 }
+
+
