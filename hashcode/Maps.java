@@ -1,6 +1,7 @@
 package hashcode;
 
 
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -9,7 +10,9 @@ public class Maps
 
     public static void main(String[] args)
     {
-        TreeMap<Integer, Employer> map = new TreeMap();
+        TreeMap<Integer, Employer> map = new TreeMap();  // mapa posortowana
+    //    LinkedHashMap<Integer, Employer> map = new LinkedHashMap<>();
+        // mapa w kolejnosci jak bylo dodawane
 
         Employer [] employers =
                 {
